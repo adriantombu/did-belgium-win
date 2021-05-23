@@ -1,0 +1,21 @@
+{
+  "description": "A twitter bot counting the days since the last trophy of the Belgian Football team",
+  "author": "Adrian Tombu <adrian@otso.fr> (https://otso.fr)",
+  "license": "GPL-3.0-or-later",
+  "repository": "https://github.com/adriantombu/did-belgium-win",
+  "bugs": {
+    "url": "https://github.com/adriantombu/did-belgium-win/issues",
+    "email": "adrian@otso.fr"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.4",
+    "dotenv": "^10.0.0",
+    "twitter-lite": "^1.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
+}
