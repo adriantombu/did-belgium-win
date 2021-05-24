@@ -15,8 +15,7 @@ const main = async () => {
       status: `It has been ${formatDate()} since the @BelRedDevils won their last trophy, the 1920 Olympic Games in Antwerp, Belgium\n#DEVILTIME #EURO2020 #COMEONEBELGIUM 🇧🇪`,
       place_id: '0653bb913c88c1ea',
     }
-    const tweet = await client.post('statuses/update', body)
-    console.log(tweet)
+    await client.post('statuses/update', body)
   } catch (e) {
     console.log(e)
   }

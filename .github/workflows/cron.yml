@@ -14,3 +14,8 @@ jobs:
           node-version: '16'
       - run: yarn install
       - run: yarn start
+        env:
+          TWITTER_KEY: ${{ secrets.TWITTER_KEY }}
+          TWITTER_SECRET: ${{ secrets.TWITTER_SECRET }}
+          TWITTER_ACCESS_TOKEN_KEY: ${{ secrets.TWITTER_ACCESS_TOKEN_KEY }}
+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
