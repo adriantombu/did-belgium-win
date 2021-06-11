@@ -12,7 +12,7 @@ const client = new Twitter({
 const main = async () => {
   try {
     const body = {
-      status: `It has been ${formatDate()} since the @BelRedDevils won their last trophy, the 1920 Olympic Games in Antwerp, Belgium\n#DEVILTIME #EURO2020 #COMEONBELGIUM 🇧🇪`,
+      status: `It has been ${formatDate()} since the @BelRedDevils won their last trophy, the 1920 Olympic Games in Antwerp, Belgium\n#BEL #DEVILTIME #EURO2020 #COMEONBELGIUM 🇧🇪`,
       place_id: '0653bb913c88c1ea',
     }
     await client.post('statuses/update', body)
