@@ -2,7 +2,7 @@
 
 A twitter bot counting the days since the last trophy of the [Belgian Football team](https://twitter.com/belreddevils).
 
-You can follow us on Twitter : [https://twitter.com/BelgiumWon](https://twitter.com/BelgiumWon)
+You can follow us on Twitter : [https://twitter.com/URBSeum](https://twitter.com/URBSeum)
 
 ### Red Devils' palmares
 
